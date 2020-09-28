@@ -13,7 +13,7 @@ Licence: GNU Public Licence >= 2 */
 #include <R_ext/Rdynload.h>
 
 #define TWOPI 6.2831853071795
-void *rho_rho_excess(nquery, xq, yq, ndata, xd, yd, nsep, xh, yh, rmaxi, sig, result) 
+void rho_rho_excess(nquery, xq, yq, ndata, xd, yd, nsep, xh, yh, rmaxi, sig, result) 
   /* inputs */
   int *nquery;            /* number of locations to be interrogated */
   double *xq, *yq;    /* (x,y) coordinates to be interrogated */
@@ -52,7 +52,7 @@ void *rho_rho_excess(nquery, xq, yq, ndata, xd, yd, nsep, xh, yh, rmaxi, sig, re
   /* jleft[i] <= jleft[i+1], likewise kleft, so only initialize once */
   /* i indexes the query points xq,yq */
   jleft=0;
-  hleft = nh;
+  hleft = nh-1;
 
   for (i = 0; i < nq; i++) {
     xqi = xq[i];
