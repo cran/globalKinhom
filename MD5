@@ -1,12 +1,12 @@
-2295e7c3ec46f655578bcab77aca7388 *DESCRIPTION
-0c52475bf60e7e657cfd99fc20aaa5ef *NAMESPACE
+aa6c75c5214564df01ea19585f6fc897 *DESCRIPTION
+67848d67998fadac0b37ccdd2e8f4c2c *NAMESPACE
 fd70d4d2b7089e583688538f4e15be0b *R/Kfuncs.R
 967484ab715ee26566738e5f9ed7e48a *R/edge.R
 4c46bf2e09e59fd084562a64089cf251 *R/expected_pairs.R
 4e4b668c728b48699afd7f9614e8a78c *R/expected_pairs_withc.R
 6aaff54f77f75d936a5c640d8f43c179 *R/isotropic_pcf.R
-3755babbd78c588fbe7bae4a3ce3d6aa *R/rho_rho.R
-4794b6a6fbce7e2889efa19239c225ca *build/partial.rdb
+48efa53160490946dc9697527bcece09 *R/rho_rho.R
+3647473819faa6f75da738bd0d49c65b *build/partial.rdb
 92ba3bdd5a490961f4387fa452b9c0d2 *man/Kfuncs.Rd
 e922c454eac22fde79d9cb8acefb76ab *man/expected_pairs.Rd
 603e64f7fa8ae17cfc885ecdd7d227b7 *man/globalKinhom-package.Rd
