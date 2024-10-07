@@ -15,16 +15,7 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-> require(globalKinhom)
-Loading required package: globalKinhom
-Loading required package: spatstat.explore
-Loading required package: spatstat.data
-Loading required package: spatstat.geom
-spatstat.geom 3.2-9
-Loading required package: spatstat.random
-spatstat.random 3.2-3
-Loading required package: nlme
-spatstat.explore 3.2-7
+> suppressMessages(require(globalKinhom))
 > 
 > set.seed(49)
 > 
@@ -766,4 +757,4 @@ spatstat.explore 3.2-7
 > 
 > proc.time()
    user  system elapsed 
-  5.535   0.160   5.706 
+  5.282   0.135   5.407 
