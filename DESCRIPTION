@@ -2,8 +2,8 @@ Package: globalKinhom
 Type: Package
 Title: Inhomogeneous K- And Pair Correlation Functions Using Global
         Estimators
-Version: 0.1.9
-Date: 2024-10-07
+Version: 0.1.10
+Date: 2025-03-20
 Encoding: UTF-8
 Authors@R: c(person("Thomas", "Shaw", role=c("aut", "cre"), email="tshaw20@utk.edu"),
             person("Ege", "Rubak", role="ctb"),
@@ -22,7 +22,9 @@ Description: Second-order summary statistics K- and pair-correlation functions d
     statistics on inhomogeneous point processes, using the methods of
     in T Shaw, J Møller, R Waagepetersen, 2020 <doi:10.48550/arXiv.2004.00527>.
 License: GPL (>= 2)
+URL: https://github.com/ThomasRShaw/globalKinhom
+BugReports: https://github.com/ThomasRShaw/globalKinhom/issues
 NeedsCompilation: yes
-Packaged: 2024-10-07 19:35:07 UTC; tshaw
+Packaged: 2025-03-20 16:15:43 UTC; tshaw
 Repository: CRAN
-Date/Publication: 2024-10-07 20:00:02 UTC
+Date/Publication: 2025-03-20 16:40:02 UTC
